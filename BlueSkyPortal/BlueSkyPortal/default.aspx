@@ -380,7 +380,7 @@
 
             <div class="row callout">
                 <div class="col-md-4 text-center" style="float: right;">
-                    <h4 class="farsi-dir farsi-align farsi-font">اطلاعیه های آموزشگاه موسیقی سرایش</h4>
+                    <h4 class="farsi-dir farsi-align farsi-font">اطلاعیه های آموزشگاه wdewf سرایش</h4>
                 </div>
                 <!-- end col -->
 
