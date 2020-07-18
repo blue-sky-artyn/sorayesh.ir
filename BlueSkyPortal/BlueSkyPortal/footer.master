@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Menu.master" AutoEventWireup="true" CodeFile="footer.master.cs" Inherits="footer" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MenuMasterHead" Runat="Server">
+    <asp:ContentPlaceHolder ID="contentPlaceFooterHead" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MenuMasterContent" Runat="Server">
+    <asp:ContentPlaceHolder ID="contentPlaceFooterBody" runat="server">
+
+    </asp:ContentPlaceHolder>
+        <footer class="section footer noover">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="widget clearfix">
+                                <h3 class="farsi-font farsi-align farsi-dir widget-title">ثبت نام در خبر نامه</h3>
+                                <div class="newsletter-widget">
+                                    <p class="farsi-font farsi-align farsi-dir">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                                    </p>
+                                    <div class="form-inline" role="search">
+                                        <div class="form-1">
+                                            <input type="text" id="txtRegister" runat="server" class="farsi-font farsi-align farsi-dir form-control" placeholder="ایمیل خود را وارد کنید...">
+                                            <button type="button" id="btnRegister" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                                            <p id="lblErrorSubscriptors" runat="server" class="error-msg" style="color: red;"></p>
+                                        </div>
+                                    </div>
+                                    <img src="images/logo.png" alt="" class="dark-logo-bottom img-responsive">
+                                </div>
+                                <!-- end newsletter -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h3 class="farsi-font farsi-align farsi-dir widget-title">امکانت اضافی</h3>
+                                <div class="farsi-dir list-widget">
+                                    <ul>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 1</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 2</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 3</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 4</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end list-widget -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h3 class="farsi-font farsi-align farsi-dir widget-title">خدمات مشتریان</h3>
+                                <div class="farsi-dir list-widget">
+                                    <ul>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 1</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 2</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 3</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 4</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end list-widget -->
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-2 col-md-2">
+                            <div class="widget clearfix">
+                                <h3 class="farsi-font farsi-align farsi-dir widget-title">اطلاعات</h3>
+                                <div class="farsi-dir list-widget">
+                                    <ul>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 1</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 2</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 3</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 4</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end list-widget -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </footer>
+            <!-- end footer -->
+
+            <div class="copyrights">
+                <div class="container">
+                    <div class="clearfix">
+                        <div class="pull-right">
+                            <div class="footer-links">
+                                <ul class="list-inline">
+                                    <li>Designed & Developed : <a href="#">Decoton Co. (info@decotonco.ca)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end copy -->
+        </div>
+        <!-- end wrapper -->
+
+        <!-- jQuery Files -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/carousel.js"></script>
+        <script src="js/animate.js"></script>
+        <script src="js/custom.js"></script>
+        <!-- VIDEO BG PLUGINS -->
+<%--        <script src="js/videobg.js"></script>--%>
+</asp:Content>
+

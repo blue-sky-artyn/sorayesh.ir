@@ -1,0 +1,57 @@
+﻿.error-msg {
+    color: red;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* common Farsi */
+.farsi-dir {
+    direction: rtl;
+}
+
+.farsi-font {
+    font-family: BYekan,'BYekan',tahoma;
+}
+
+.farsi-position {
+    text-align: right;
+}
+
+.farsi-position-justify {
+    text-align: justify;
+}
+
+.farsi-float {
+    float: right;
+}
+
+.farsi-title {
+    font-size: 15px;
+    font-weight: 900;
+    font-family: BYekan,'BYekan',tahoma;
+}
+
+.farsi-article {
+    font-size: 12px;
+}
+.farsi-font-text {
+    font-family: BYekan,'BYekan',tahoma;
+    font-size: 12px;
+}
+
+.farsi-font-title {
+    font-family: BYekan,'BYekan',tahoma;
+    font-size: 22px;
+}
+
+.farsi-direction {
+    direction: rtl;
+    color: white;
+}
+
+.farsi-align {
+    text-align: right;
+}
+
+/* End common */
