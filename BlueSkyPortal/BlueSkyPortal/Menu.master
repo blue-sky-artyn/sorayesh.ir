@@ -58,7 +58,7 @@
             <div class="nav light-blue-menu">
                 <ul>
                     <li><a href="#">صفحه اصلی</a></li>
-                    <li><a class="drop" href="#">برنامه کلاسی</a>
+                    <li><a href="#">برنامه کلاسی</a></li>
                        <!-- <ul class="levels">
                             <li><a href="#">منو 1</a></li>
                             <li><a href="#">منو 2</a></li>
@@ -78,8 +78,9 @@
                         </ul> -->
                     </li>
                     <li><a href="#">بیوگرافی اساتید</a></li>
-                    <li><a href="#">سازها</a></li>
+                    <li><a href="#">ساز شناسی</a></li>
                     <li><a href="#">خرید نت</a></li>
+                     <li><a href="#">دانلود آهنگ های بیکلام</a></li>
                     <li><a href="#">مبانی تئوری موسیقی و آهنگسازی</a></li>
                        <li><a href="#">درباره ما</a></li>
                 </ul>
