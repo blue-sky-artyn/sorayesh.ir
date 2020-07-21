@@ -356,16 +356,7 @@
                         <img src="images/3.jpg" alt="3" title="3" id="wows1_2" /></li>
                 </ul>
             </div>
-            <div class="ws_thumbs">
-                <div>
-                    <a href="#" title="1">
-                        <img src="images/tooltips/1.jpg" alt="" /></a>
-                    <a href="#" title="2">
-                        <img src="images/tooltips/2.jpg" alt="" /></a>
-                    <a href="#" title="3">
-                        <img src="images/tooltips/3.jpg" alt="" /></a>
-                </div>
-            </div>
+           
 
             <div class="ws_shadow"></div>
         </div>
@@ -380,12 +371,12 @@
 
             <div class="row callout">
                 <div class="col-md-4 text-center" style="float: right;">
-                    <h4 class="farsi-dir farsi-align farsi-font">اطلاعیه های آموزشگاه بیا اینم تغییر سرایش</h4>
+                    <h4 class="farsi-dir farsi-align farsi-font">اطلاعیه های آموزشگاه موسیقی سرایش</h4>
                 </div>
                 <!-- end col -->
 
                 <div class="col-md-8">
-                    <p class="farsi-dir farsi-align farsi-font lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                    <p class="farsi-dir farsi-align farsi-font lead">شروع ترم جدید کلاس های آموزشگاه موسیقی سرایش. </p>
                     <a href="#" class="farsi-font btn btn-primary">لینک</a>
                 </div>
             </div>
@@ -442,12 +433,12 @@
 
             <div class="row callout">
                 <div class="col-md-12 text-center">
-                    <h4 class="farsi-dir farsi-font">اطلاعیه های آموزشگاه موسیقی سرایش</h4>
+                    <h4 class="farsi-dir farsi-font"> آموزشگاه موسیقی سرایش</h4>
                 </div>
                 <!-- end col -->
 
                 <div class="col-md-12">
-                    <p class="farsi-dir farsi-align farsi-font lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                    <p class="farsi-dir farsi-align farsi-font lead">با بهره گیری از اساتید مجرب و برجسته و در فضایی کاملا حرفه ای در خدمت هنرجویان گرامی می باشد  </p>
                 </div>
                 <style>
                     .right-side {text-align: right;border-right: 1px solid;padding-right: 0px;}

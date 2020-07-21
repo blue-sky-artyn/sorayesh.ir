@@ -18,11 +18,11 @@
                                 <h3 class="farsi-font farsi-align farsi-dir widget-title">ثبت نام در خبر نامه</h3>
                                 <div class="newsletter-widget">
                                     <p class="farsi-font farsi-align farsi-dir">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                                        لطفا شماره تماس خودرا وارد کنید تا در کانال آموزشگاه عضو شوید 
                                     </p>
                                     <div class="form-inline" role="search">
                                         <div class="form-1">
-                                            <input type="text" id="txtRegister" runat="server" class="farsi-font farsi-align farsi-dir form-control" placeholder="ایمیل خود را وارد کنید...">
+                                            <input type="text" id="txtRegister" runat="server" class="farsi-font farsi-align farsi-dir form-control" placeholder="شماره تلفن خود را وارد کنید...">
                                             <button type="button" id="btnRegister" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
                                             <p id="lblErrorSubscriptors" runat="server" class="error-msg" style="color: red;"></p>
                                         </div>
@@ -35,15 +35,15 @@
                         </div>
                         <!-- end col -->
 
+
                         <div class="col-lg-3 col-md-3">
                             <div class="widget clearfix">
-                                <h3 class="farsi-font farsi-align farsi-dir widget-title">امکانت اضافی</h3>
+                                <h3 class="farsi-font farsi-align farsi-dir widget-title">امکانات اضافی</h3>
                                 <div class="farsi-dir list-widget">
                                     <ul>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 1</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 2</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 3</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 4</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">خرید نت</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">مشاهده کارهای کارآموزان</a></li>
+                                      
                                     </ul>
                                 </div>
                                 <!-- end list-widget -->
@@ -57,10 +57,10 @@
                                 <h3 class="farsi-font farsi-align farsi-dir widget-title">خدمات مشتریان</h3>
                                 <div class="farsi-dir list-widget">
                                     <ul>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 1</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 2</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 3</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 4</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">ساز شناسی</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">برنامه کلاسی</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">بیوگرافی اساتید</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">درباره ما</a></li>
                                     </ul>
                                 </div>
                                 <!-- end list-widget -->
@@ -70,13 +70,13 @@
 
                         <div class="col-lg-2 col-md-2">
                             <div class="widget clearfix">
-                                <h3 class="farsi-font farsi-align farsi-dir widget-title">اطلاعات</h3>
+                                <h3 class="farsi-font farsi-align farsi-dir widget-title">سایت های مرتبط</h3>
                                 <div class="farsi-dir list-widget">
                                     <ul>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 1</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 2</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 3</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">چرندیات 4</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">خانه موسیقی ایران</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">خانه هنرمندان ایران</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">ایران کنسرت</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">موسیقی ایران</a></li>
                                     </ul>
                                 </div>
                                 <!-- end list-widget -->

@@ -39,9 +39,9 @@
                     </div>
                     <div class="col-md-6 col-sm-6 text-right">
                         <p id="contactInfoHtml" runat="server">
-                            آدرس را اینحا وارد کنید   &nbsp;&nbsp;<strong><i class="top-icon fa fa-map-marker" aria-hidden="true"></i></strong>
-                                +1 416 994 6090 &nbsp;&nbsp;<strong><i class="top-icon fa fa-phone"></i></strong>
-                                <a href="mailto:info@decowallinc.ca">info@decowallinc.ca</a>&nbsp;&nbsp;<strong><i class="top-icon fa fa-envelope"></i></strong>
+                            مشهد بلوار وکیل آباد   &nbsp;&nbsp;<strong><i class="top-icon fa fa-map-marker" aria-hidden="true"></i></strong>
+                             0513606598 &nbsp;&nbsp;<strong><i class="top-icon fa fa-phone"></i></strong>
+                                <a href="mailto:info@gmail.com">info@decowallinc.ca</a>&nbsp;&nbsp;<strong><i class="top-icon fa fa-envelope"></i></strong>
                         </p>
                     </div>
                     <!-- end left -->
@@ -57,9 +57,9 @@
         <div id="container" style="width: 80%; margin: 0 auto;">
             <div class="nav light-blue-menu">
                 <ul>
-                    <li><a href="#">کلاسیک</a></li>
-                    <li><a class="drop" href="#">آموزشی</a>
-                        <ul class="levels">
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a class="drop" href="#">برنامه کلاسی</a>
+                       <!-- <ul class="levels">
                             <li><a href="#">منو 1</a></li>
                             <li><a href="#">منو 2</a></li>
                             <li><a href="#">منو 3</a>
@@ -75,12 +75,13 @@
                             </li>
                             <li><a href="#">منو 4</a></li>
                             <li><a href="#">منو 5</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                    <li><a href="#">فیلم</a></li>
+                    <li><a href="#">بیوگرافی اساتید</a></li>
                     <li><a href="#">سازها</a></li>
-                    <li><a href="#">اراجیف دیکه</a></li>
-                    <li><a href="#">بازم مزخرف</a></li>
+                    <li><a href="#">خرید نت</a></li>
+                    <li><a href="#">مبانی تئوری موسیقی و آهنگسازی</a></li>
+                       <li><a href="#">درباره ما</a></li>
                 </ul>
                 <div class="search-top">
                     <div class="inline-search">
