@@ -59,18 +59,18 @@
 
 .nav ul li ul li:hover {
 	background-color:#fff;
-} 
-
-.nav > ul > li a {
-	font-family:Arial, Helvetica, sans-serif;
-	text-transform:uppercase;
-	color:#fff;
-	font-weight:700;
-	display:block;
-	text-shadow:0 1px 0 rgba(0,0,0,0.5);
-	text-decoration:none;
-	font-size:12px;
 }
+
+	.nav > ul > li a {
+		font-family: BYekan,'BYekan',tahoma;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 700;
+		display: block;
+		text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+		text-decoration: none;
+		font-size: 14px;
+	}
 
 .nav ul li ul > li > a {
 	color:#363636;
@@ -78,14 +78,15 @@
 	text-shadow:none;
 }
 
-.nav li a.drop:after {
-	font-family: 'WebSymbolsRegular';
-    content:"[";
-	overflow:hidden;
-	position:absolute;
-	right:7px;
-	top:0;
-}
+	.nav li a.drop:after {
+		font-family: BYekan,'BYekan',tahoma;
+		/*font-family: 'WebSymbolsRegular';*/
+		content: "[";
+		overflow: hidden;
+		position: absolute;
+		right: 7px;
+		top: 0;
+	}
 
 /* 2-Levels Drop Down */
 
@@ -200,17 +201,18 @@
 }
 
 .inline-search input[type="submit"] {
-	font-family: 'WebSymbolsRegular';
-	background:none;
-	border:none;
-	position:absolute;
-	top:14px;
-	overflow:hidden;
-	width:18px;
-	height:18px;
-	font-size:16px;
-	right:15px;
-	cursor:pointer !important;
+	/*font-family: 'WebSymbolsRegular';*/
+	font-family: BYekan,'BYekan',tahoma;
+	background: none;
+	border: none;
+	position: absolute;
+	top: 14px;
+	overflow: hidden;
+	width: 18px;
+	height: 18px;
+	font-size: 16px;
+	right: 15px;
+	cursor: pointer !important;
 } 
 
 .inline-search input[type="submit"]:hover {

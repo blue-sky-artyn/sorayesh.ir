@@ -87,6 +87,7 @@ SKELETON
 ******************************************/
 
 body {
+    font-family: BYekan,'BYekan',tahoma;
     background-color: #f6f6f6;
     line-height: 1.6;
     font-size: 16px;
@@ -97,7 +98,7 @@ body,
 p,
 li,
 a {
-    font-family: 'Roboto', sans-serif;
+    font-family: BYekan,'BYekan',tahoma;
 }
 
 .course-details h4 a,
@@ -163,7 +164,8 @@ blockquote {
     margin: 30px 0;
     position: relative;
     padding: 4rem 3rem;
-    font-family: 'Droid Serif', sans-serif;
+    font-family: BYekan,'BYekan',tahoma;
+/*    font-family: 'Droid Serif', sans-serif;*/
     font-style: italic;
     border: 1px solid #eaeaea;
     background-color: #f6f6f6;
@@ -412,7 +414,8 @@ HEADER
     background-image: none;
     border: 0;
     border-radius: 0;
-    font-family: 'Droid Serif', sans-serif;
+    font-family: BYekan,'BYekan',tahoma;
+/*    font-family: 'Droid Serif', sans-serif;*/
     box-shadow: none;
     color: #555;
     display: block;
@@ -1009,7 +1012,8 @@ SECTIONS
         margin: 0 auto;
         padding: 0;
         font-size: 16px;
-        font-family: 'Droid Serif', sans-serif;
+        font-family: BYekan,'BYekan',tahoma;
+        /*font-family: 'Droid Serif', sans-serif;*/
         font-style: italic;
     }
 
@@ -1089,7 +1093,8 @@ SECTIONS
 
     .home-message small {
         font-size: 16px;
-        font-family: 'Droid Serif', sans-serif;
+        font-family: BYekan,'BYekan',tahoma;
+        /*font-family: 'Droid Serif', sans-serif;*/
         font-style: italic;
         display: block;
         padding: 20px 0 35px;
@@ -1238,7 +1243,8 @@ COURSE MODULES
         font-weight: bold;
         font-size: 16px;
         line-height: 1;
-        font-family: Arial
+        font-family: 'Droid Serif', sans-serif;
+        /*font-family: Arial*/
     }
 
 .entry {
@@ -1609,6 +1615,7 @@ BLOG
     margin: 0;
     font-size: 16px;
     font-family: 'Droid Serif', sans-serif;
+    /*font-family: 'Droid Serif', sans-serif;*/
     font-style: italic;
 }
 
