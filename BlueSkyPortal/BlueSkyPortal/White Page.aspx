@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="about" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="White Page.aspx.cs" Inherits="about" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceFooterHead" runat="Server">
 </asp:Content>

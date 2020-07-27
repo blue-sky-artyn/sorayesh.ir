@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="store.aspx.cs" Inherits="_Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceFooterHead" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceFooterHead" runat="Server">
     <style>
         /* Slider Start */
         .accordion {
@@ -194,13 +194,172 @@
 
     <%-- Slider --%>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+
+    <%-- Carousel CSSs  --%>
+    <style>
+        .MultiCarousel {
+            float: left;
+            overflow: hidden;
+            padding: 15px;
+            width: 100%;
+            position: relative;
+        }
+
+            .MultiCarousel .MultiCarousel-inner {
+                transition: 1s ease all;
+                float: left;
+            }
+
+                .MultiCarousel .MultiCarousel-inner .item {
+                    float: left;
+                }
+
+                    .MultiCarousel .MultiCarousel-inner .item > div {
+                        text-align: center;
+                        padding: 10px;
+                        margin: 10px;
+                        background: #f1f1f1;
+                        color: #666;
+                    }
+
+            .MultiCarousel .leftLst, .MultiCarousel .rightLst {
+                position: absolute;
+                border-radius: 50%;
+                top: calc(50% - 20px);
+                padding: 0;
+                width: 45px;
+                height: 45px;
+            }
+
+            .MultiCarousel .leftLst {
+                left: 0;
+            }
+
+            .MultiCarousel .rightLst {
+                right: 0;
+            }
+
+                .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+                    pointer-events: none;
+                    background: #ccc;
+                }
+    </style>
+    <%-- Carousel JSs  --%>
+
+    <script>
+        $(document).ready(function () {
+            var itemsMainDiv = ('.MultiCarousel');
+            var itemsDiv = ('.MultiCarousel-inner');
+            var itemWidth = "";
+
+            $('.leftLst, .rightLst').click(function () {
+                var condition = $(this).hasClass("leftLst");
+                if (condition)
+                    click(0, this);
+                else
+                    click(1, this)
+            });
+
+            ResCarouselSize();
+
+
+
+
+            $(window).resize(function () {
+                ResCarouselSize();
+            });
+
+            //this function define the size of the items
+            function ResCarouselSize() {
+                var incno = 0;
+                var dataItems = ("data-items");
+                var itemClass = ('.item');
+                var id = 0;
+                var btnParentSb = '';
+                var itemsSplit = '';
+                var sampwidth = $(itemsMainDiv).width();
+                var bodyWidth = $('body').width();
+                $(itemsDiv).each(function () {
+                    id = id + 1;
+                    var itemNumbers = $(this).find(itemClass).length;
+                    btnParentSb = $(this).parent().attr(dataItems);
+                    itemsSplit = btnParentSb.split(',');
+                    $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+                    if (bodyWidth >= 1200) {
+                        incno = itemsSplit[3];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 992) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 768) {
+                        incno = itemsSplit[1];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else {
+                        incno = itemsSplit[0];
+                        itemWidth = sampwidth / incno;
+                    }
+                    $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                    $(this).find(itemClass).each(function () {
+                        $(this).outerWidth(itemWidth);
+                    });
+
+                    $(".leftLst").addClass("over");
+                    $(".rightLst").removeClass("over");
+
+                });
+            }
+
+
+            //this function used to move the items
+            function ResCarousel(e, el, s) {
+                var leftBtn = ('.leftLst');
+                var rightBtn = ('.rightLst');
+                var translateXval = '';
+                var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                var values = divStyle.match(/-?[\d\.]+/g);
+                var xds = Math.abs(values[4]);
+                if (e == 0) {
+                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                    $(el + ' ' + rightBtn).removeClass("over");
+
+                    if (translateXval <= itemWidth / 2) {
+                        translateXval = 0;
+                        $(el + ' ' + leftBtn).addClass("over");
+                    }
+                }
+                else if (e == 1) {
+                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                    $(el + ' ' + leftBtn).removeClass("over");
+
+                    if (translateXval >= itemsCondition - itemWidth / 2) {
+                        translateXval = itemsCondition;
+                        $(el + ' ' + rightBtn).addClass("over");
+                    }
+                }
+                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+            }
+
+            //It is used to get some elements from btn
+            function click(ell, ee) {
+                var Parent = "#" + $(ee).parent().attr("id");
+                var slide = $(Parent).attr("data-slide");
+                ResCarousel(ell, Parent, slide);
+            }
+
+        });
+    </script>
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="contentPlaceFooterBody" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="contentPlaceFooterBody" runat="Server">
     <%-- Accordion Slider --%>
     <section class="accordion video-section js-height-full">
-        
 
 
 
@@ -212,26 +371,27 @@
 
 
 
-        <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-		<li><img src="images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
-		<li><a href="#"><img src="images/2.jpg" alt="" title="2" id="wows1_1"/></a></li>
-		<li><img src="images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
-	</ul></div>
-	<div class="ws_thumbs">
-<div>
-		<a href="#" title="1"><img src="images/tooltips/1.jpg" alt="" /></a>
-		<a href="#" title="2"><img src="images/tooltips/2.jpg" alt="" /></a>
-		<a href="#" title="3"><img src="images/tooltips/3.jpg" alt="" /></a>
-	</div>
-</div>
 
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
+        <!-- Start WOWSlider.com BODY section -->
+        <!-- add to the <body> of your page -->
+        <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li>
+                        <img src="images/1.jpg" alt="1" title="1" id="wows1_0" /></li>
+                    <li><a href="#">
+                        <img src="images/2.jpg" alt="" title="2" id="wows1_1" /></a></li>
+                    <li>
+                        <img src="images/3.jpg" alt="3" title="3" id="wows1_2" /></li>
+                </ul>
+            </div>
+
+
+            <div class="ws_shadow"></div>
+        </div>
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
 
 
 
@@ -251,7 +411,7 @@
     </section>
 
 
-  
+
     <section class="section gb">
         <div class="container">
             <div class="section-title text-center">
@@ -329,7 +489,7 @@
 
                             <div class="blog-desc">
                                 <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>                                
+                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
                             </div>
                             <!-- end blog-desc -->
 
@@ -415,7 +575,7 @@
 
                             <div class="blog-desc">
                                 <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>                                
+                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
                             </div>
                             <!-- end blog-desc -->
 
@@ -437,7 +597,151 @@
         <!-- end container -->
     </section>
 
+
+    <section class="section gb">
+        <div class="container">
+            <div class="row">
+                <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="farsi-font lead">لورم ایپسوم متن ساختگی</p>
+                                <p>تولید سادگی نامفهوم</p>
+                                <p class="farsi-font">6000</p>
+                                <p class="farsi-font">50% تخفیف</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary leftLst"><</button>
+                    <button class="btn btn-primary rightLst">></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <br />
+                    <br />
+                    <br />
+                    <hr />
+                    <p class="farsi-align farsi-dir farsi-font">لورم ایپسوم</p>
+                    <p class="farsi-align farsi-dir farsi-font">ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                    <p class="farsi-align farsi-dir farsi-font">حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
 </asp:Content>
 
