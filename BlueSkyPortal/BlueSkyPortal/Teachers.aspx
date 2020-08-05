@@ -31,39 +31,42 @@
         <div class="container">
             <div class="main">
                 <!-- EIGHTH EXAMPLE -->
+                
                 <div class="view view-eighth">
-                    <img src="images/1.jpg" />
+                    <img src="images/ostad/1.jpg" />
                     <div class="mask">
-                        <h2 class="farsi-font">مدرس گیتار تک سیم</h2>
-                        <p class="farsi-font">خیلی هم قشنگ میزنهُ هر کی بگه نه خره</p>
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
+                    </div>
+                   
+                </div>
+             
+                <div class="view view-eighth">
+                    <img src="images/ostad/2.jpg" />
+                    <div class="mask">
+                        <h2 class="farsi-font">نوازنده و مدرس گیتار کلاسیک </h2>
+                        <p class="farsi-font">آقای محمد محمدی</p>
                     </div>
                 </div>
                 <div class="view view-eighth">
-                    <img src="images/2.jpg" />
+                    <img src="images/ostad/1.jpg" />
                     <div class="mask">
-                        <h2 class="farsi-font">مدرس ویالن بدون دست</h2>
-                        <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
                     </div>
                 </div>
                 <div class="view view-eighth">
-                    <img src="images/1.jpg" />
+                    <img src="images/ostad/1.jpg" />
                     <div class="mask">
-                        <h2 class="farsi-font">مدرس تیمپو سوراخ</h2>
-                        <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
                     </div>
                 </div>
                 <div class="view view-eighth">
-                    <img src="images/a1.jpg" />
+                    <img src="images/ostad/1.jpg" />
                     <div class="mask">
-                        <h2 class="farsi-font">مدرس بشگن مجلسی</h2>
-                        <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
-                    </div>
-                </div>
-                <div class="view view-eighth">
-                    <img src="images/a1.jpg" />
-                    <div class="mask">
-                        <h2 class="farsi-font">مدرس سوت چخ چخی</h2>
-                        <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
                     </div>
                 </div>
             </div>
