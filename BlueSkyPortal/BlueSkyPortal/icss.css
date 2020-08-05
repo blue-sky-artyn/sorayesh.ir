@@ -7,15 +7,15 @@
 
 /* common Farsi */
 .farsi-dir {
-    direction: rtl;
+    direction: rtl !important;
 }
 
 .farsi-font {
-    font-family: BYekan,'BYekan',tahoma;
+    font-family: BYekan,'BYekan',tahoma !important;
 }
 
 .farsi-position {
-    text-align: right;
+    text-align: right !important;
 }
 
 .farsi-position-justify {
@@ -23,17 +23,20 @@
 }
 
 .farsi-float {
-    float: right;
+    float: right !important;
+}
+
+.farsi-number-float {
+    float: left !important;
 }
 
 .farsi-title {
-    font-size: 15px;
-    font-weight: 900;
-    font-family: BYekan,'BYekan',tahoma;
+    font-size: 15px !important;
+    font-weight: 900 !important;
 }
 
 .farsi-article {
-    font-size: 12px;
+    font-size: 12px !important;
 }
 .farsi-font-text {
     font-family: BYekan,'BYekan',tahoma;
@@ -42,7 +45,7 @@
 
 .farsi-font-title {
     font-family: BYekan,'BYekan',tahoma;
-    font-size: 22px;
+    font-size: 22px !important;
 }
 
 .farsi-direction {
@@ -51,7 +54,7 @@
 }
 
 .farsi-align {
-    text-align: right;
+    text-align: right !important;
 }
 
 /* End common */
