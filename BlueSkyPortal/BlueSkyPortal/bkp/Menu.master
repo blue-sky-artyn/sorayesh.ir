@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.master" AutoEventWireup="true" CodeFile="Menu.master.cs" Inherits="Menu" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Materhead" runat="Server">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .sub-cat-menu {
+            height: 0;
+            margin-left: 11%;
+            overflow: hidden;
+        }
+        /* Header */
+        .top-icon {
+            color: cornflowerblue;
+            margin: 0 15px 0 5px;
+        }
+        .flag {
+            width: 100%;
+            position: absolute;
+            padding-right: 20px;
+            top: -10px;
+        }
+        .logo {
+            position: absolute;
+            right: -9%;
+            top: -20px;
+            width: 7%;
+        }
+        .logo a img {width:100%;}
+    </style>
+    <script type="text/javascript" src="js/html5placeholder.jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/drop.css">
+    <asp:ContentPlaceHolder ID="MenuMasterHead" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainMasterContent" runat="Server">
+    <header class="header">
+        <div class="topbar clearfix">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="col-md-1 col-sm-1 hidden-xs text-left">
+                        <img class="flag" src="images/flag2.png" alt="sorayesh music" />
+                    </div>
+                    <div class="col-md-5 col-sm-5 hidden-xs text-left">
+                        <div id="socialHtml" runat="server" class="social">
+                            <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                            <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            <a class="telegram" href="#" data-tooltip="tooltip" data-placement="bottom" title="telegram"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                            <a class="instagram" href="#" data-tooltip="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- end social -->
+                    </div>
+                    <div class="col-md-6 col-sm-6 text-right">
+                        <p id="contactInfoHtml" runat="server">
+                            مشهد بلوار وکیل آباد   &nbsp;&nbsp;<strong><i class="top-icon fa fa-map-marker" aria-hidden="true"></i></strong>
+                             0513606598 &nbsp;&nbsp;<strong><i class="top-icon fa fa-phone"></i></strong>
+                                <a href="mailto:info@gmail.com">info@decowallinc.ca</a>&nbsp;&nbsp;<strong><i class="top-icon fa fa-envelope"></i></strong>
+                        </p>
+                    </div>
+                    <!-- end left -->
+                    <!-- end left -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end topbar -->
+
+        <%--<nav class="navbar navbar-default yamm">--%>
+        <div id="container" style="width: 80%; margin: 0 auto;">
+            <div class="nav light-blue-menu">
+                <div class="logo"><a href="default.aspx"><img src="images/logo.jpg" alt="" /></a></div>
+                <ul>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">برنامه کلاسی</a></li>
+                       <!-- <ul class="levels">
+                            <li><a href="#">منو 1</a></li>
+                            <li><a href="#">منو 2</a></li>
+                            <li><a href="#">منو 3</a>
+                                <ul>
+                                    <li><a href="#">منو 3 1</a></li>
+                                    <li><a href="#">منو 3 2</a></li>
+                                    <li><a href="#">منو 3 3</a>
+                                        <ul>
+                                            <li><a href="#">ی منو دیگه ;-)</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">منو 4</a></li>
+                            <li><a href="#">منو 5</a></li>
+                        </ul> -->
+                    
+                    <li><a href="#">بیوگرافی اساتید</a></li>
+                    <li><a href="#">ساز شناسی</a></li>
+                    <li><a href="#">خرید نت</a></li>
+                     <li><a href="#">دانلود آهنگ های بیکلام</a></li>
+                    <li><a href="#">مبانی تئوری موسیقی و آهنگسازی</a></li>
+                       <li><a href="#">درباره ما</a></li>
+                </ul>
+                <div class="search-top">
+                    <div class="inline-search">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <input type="text" placeholder="جستجو" name="Search">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <!--/ search-box-->
+                <div class="clear"></div>
+            </div>
+            <!--/ nav-->
+
+
+        </div>
+        <!--/ container-->
+        <script type="text/javascript"> 
+    // Placeholders functionality
+    jQuery(function () {
+        jQuery(':input[placeholder]').placeholder();
+    });  
+        </script>
+        <!-- end container -->
+    </header>
+    <asp:ContentPlaceHolder ID="MenuMasterContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".main-cat").hover(function () {
+            var mainId = $(this).attr("main-cat");
+
+            $("ul").find(`[sub-cat='${mainId}']`).css("height", "auto");
+        });
+
+        $(".sub-cat-menu").hover(function () {
+            var mainId = $(this).attr("sub-cat");
+
+            $("ul").find(`[sub-cat='${mainId}']`).css("height", "auto");
+        });
+
+        $(".main-cat").mouseleave(function () {
+            var mainId = $(this).attr("main-cat");
+
+            $("ul").find(`[sub-cat='${mainId}']`).css("height", "0px");
+        });
+
+        $(".sub-cat-menu").mouseleave(function () {
+            $(this).css("height", "0px");
+        });
+    </script>
+</asp:Content>
+
