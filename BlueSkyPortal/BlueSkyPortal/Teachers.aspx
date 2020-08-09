@@ -49,6 +49,23 @@
             
             <div class="main">
                 <!-- EIGHTH EXAMPLE -->
+<<<<<<< HEAD
+                
+                <div class="view view-eighth">
+                    <img src="images/ostad/1.jpg" />
+                    <div class="mask">
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
+                    </div>
+                   
+                </div>
+             
+                <div class="view view-eighth">
+                    <img src="images/ostad/2.jpg" />
+                    <div class="mask">
+                        <h2 class="farsi-font">نوازنده و مدرس گیتار کلاسیک </h2>
+                        <p class="farsi-font">آقای محمد محمدی</p>
+=======
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
@@ -75,9 +92,17 @@
                     </div>
                     <div class="text-teacher">
                         <p>اسم معلم/چی میزنه</p>
+>>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
                     </div>
 
                 </div>
+<<<<<<< HEAD
+                <div class="view view-eighth">
+                    <img src="images/ostad/1.jpg" />
+                    <div class="mask">
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
+=======
 
                 <div class="teacher-items">
 
@@ -91,9 +116,17 @@
 
                     <div class="text-teacher">
                         <p>اسم معلم/چی میزنه</p>
+>>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
                     </div>
 
                 </div>
+<<<<<<< HEAD
+                <div class="view view-eighth">
+                    <img src="images/ostad/1.jpg" />
+                    <div class="mask">
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
+=======
 
                 <div class="teacher-items">
 
@@ -106,9 +139,17 @@
                     </div>
                     <div class="text-teacher">
                         <p>اسم معلم/چی میزنه</p>
+>>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
                     </div>
 
                 </div>
+<<<<<<< HEAD
+                <div class="view view-eighth">
+                    <img src="images/ostad/1.jpg" />
+                    <div class="mask">
+                        <h2 class="farsi-font">مدرس گیتار </h2>
+                        <p class="farsi-font">آقای رضا مرتضویی</p>
+=======
 
                 <div class="teacher-items">
 
@@ -121,6 +162,7 @@
                     </div>
                     <div class="text-teacher">
                         <p>اسم معلم/چی میزنه</p>
+>>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
                     </div>
 
                 </div>

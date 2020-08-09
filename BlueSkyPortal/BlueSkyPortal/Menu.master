@@ -74,7 +74,7 @@
             <div class="nav light-blue-menu">
                 <div class="logo"><a href="default.aspx"><img src="images/logo.jpg" alt="" /></a></div>
                 <ul>
-                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="default.aspx">صفحه اصلی</a></li>
                     <li><a href="#">برنامه کلاسی</a></li>
                        <!-- <ul class="levels">
                             <li><a href="#">منو 1</a></li>
@@ -94,12 +94,12 @@
                             <li><a href="#">منو 5</a></li>
                         </ul> -->
                     
-                    <li><a href="#">بیوگرافی اساتید</a></li>
+                    <li><a href="Teachers.aspx">بیوگرافی اساتید</a></li>
                     <li><a href="#">ساز شناسی</a></li>
-                    <li><a href="#">خرید نت</a></li>
-                     <li><a href="#">دانلود آهنگ های بیکلام</a></li>
+                    <li><a href="store.aspx">خرید نت</a></li>
+                     <li><a href="store_mp3.aspx">دانلود آهنگ های بیکلام</a></li>
                     <li><a href="#">مبانی تئوری موسیقی و آهنگسازی</a></li>
-                       <li><a href="#">درباره ما</a></li>
+                       <li><a href="about.aspx">درباره ما</a></li>
                 </ul>
                 <div class="search-top">
                     <div class="inline-search">

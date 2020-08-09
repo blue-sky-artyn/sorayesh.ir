@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="store.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="store_mp3.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceFooterHead" runat="Server">
     <style>
@@ -414,8 +414,6 @@
 
     <section class="section gb">
         <div class="container">
-                        <div class="boxed">
-
             <div class="section-title text-center">
                 <h3>جدیدترین ها</h3>
                 <%--<p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>--%>
@@ -426,7 +424,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="blog-box">
                             <div class="">
-                                <img src="images/not/1.jpg" alt="" class="img-responsive">
+                                <img src="images/mp3/1.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
                                 </div>
@@ -434,9 +432,9 @@
                             <!-- end image-wrap -->
 
                             <div class="blog-desc">
-                                <h4 class="farsi-font farsi-dir"><a href="#">نت پیانو یه شبگرد عاشق مرتضی اشرفی. </a></h4>
-                                <p class="farsi-font farsi-dir">نام آهنگساز : مرتضی اشرفی</p>
-                                <p class="farsi-font farsi-dir"> تنظیم : سارا رفیع جلال</p>
+                                <h4 class="farsi-font farsi-dir"><a href="#"> دانلود آهنگ بی کلام اَی دله غافل از علیرضا طلیسچی</a></h4>
+                                <p class="farsi-font farsi-dir">خواننده : علیرضا طلیسچی</p>
+                                <p class="farsi-font farsi-dir"> آهنگساز : علیرضا طلیسچی</p>
                                  <p class="farsi-font farsi-dir"> قیمت : 5000 تومان</p>
                             </div>
                             <!-- end blog-desc -->
@@ -456,7 +454,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="blog-box">
                             <div class="">
-                               <img src="images/not/1.jpg" alt="" class="img-responsive">
+                               <img src="images/mp3/2.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
                                 </div>
@@ -464,9 +462,9 @@
                             <!-- end image-wrap -->
 
                             <div class="blog-desc">
-                                 <h4 class="farsi-font farsi-dir"><a href="#"> نام : نت ویولن یه شبگرد عاشق مرتضی اشرفی. </a></h4>
-                                <p class="farsi-font farsi-dir">نام آهنگساز : مرتضی اشرفی</p>
-                                <p class="farsi-font farsi-dir"> تنظیم : سارا رفیع جلال</p>
+                                 <h4 class="farsi-font farsi-dir"><a href="#">  دانلود آهنگ بی کلام بی احساس از علی عبدالمالکی </a></h4>
+                                <p class="farsi-font farsi-dir">خواننده : علی عبدالمالکی</p>
+                                <p class="farsi-font farsi-dir"> آهنگساز : علی عبدالمالکی</p>
                                  <p class="farsi-font farsi-dir"> قیمت : 5000 تومان</p>                     </div>
                             <!-- end blog-desc -->
 
@@ -485,7 +483,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="blog-box">
                             <div class="">
-                                <img src="images/not/1.jpg" alt="" class="img-responsive">
+                                <img src="images/mp3/1.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
                                 </div>
@@ -493,10 +491,11 @@
                             <!-- end image-wrap -->
 
                             <div class="blog-desc">
-                             <h4 class="farsi-font farsi-dir"><a href="#">نت پیانو یه شبگرد عاشق مرتضی اشرفی. </a></h4>
-                                <p class="farsi-font farsi-dir">نام آهنگساز : مرتضی اشرفی</p>
-                                <p class="farsi-font farsi-dir"> تنظیم : سارا رفیع جلال</p>
-                                 <p class="farsi-font farsi-dir"> قیمت : 5000 تومان</p>
+                            
+                                 <h4 class="farsi-font farsi-dir"><a href="#">  دانلود آهنگ بی کلام بی احساس از علی عبدالمالکی </a></h4>
+                                <p class="farsi-font farsi-dir">خواننده : علی عبدالمالکی</p>
+                                <p class="farsi-font farsi-dir"> آهنگساز : علی عبدالمالکی</p>
+                                 <p class="farsi-font farsi-dir"> قیمت : 5000 تومان</p>   
 
                             </div>
                             <!-- end blog-desc -->
@@ -518,7 +517,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="blog-box">
                             <div class="">
-                                <img src="images/not/1.jpg" alt="" class="img-responsive">
+                                <img src="images/mp3/1.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
                                 </div>
@@ -549,7 +548,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="blog-box">
                             <div class="">
-                                <img src="images/not/1.jpg" alt="" class="img-responsive">
+                                <img src="images/mp3/1.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
                                 </div>
@@ -580,7 +579,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="blog-box">
                             <div class="">
-                                <img src="images/not/1.jpg" alt="" class="img-responsive">
+                                <img src="images/mp3/1.jpg" alt="" class="img-responsive">
                                 <div class="magnifier">
                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
                                 </div>
@@ -610,7 +609,6 @@
                 </div>
             </div>
             <!-- end row -->
-                            </div>
         </div>
         <!-- end container -->
     </section>
