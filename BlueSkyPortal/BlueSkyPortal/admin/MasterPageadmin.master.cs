@@ -4,17 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using bluesky.artyn;
-using Cruder.Core;
 
-public partial class about : System.Web.UI.Page
+public partial class Admin_MasterPageadmin : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Request.QueryString["grp"] != "")
-        {
-            string groups = Request.QueryString["grp"];
-        }
 
     }
 }

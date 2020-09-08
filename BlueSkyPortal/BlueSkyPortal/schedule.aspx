@@ -122,7 +122,7 @@
 
                         <p class="font-color-black farsi-align farsi-direction farsi-font">برنامه کلاس های آموزشگاه آزاد موسیقی سرایش<br />
 برای اطلاع از روزها و ساعات کلاس ها با آموزشگاه تماس حاصل نمایید.<br />
-تلفن تماس : تهران ۸۸۷۴۲۵۸۸  و  ۸۸۷۴۲۸۲۴ (۰۲۱)</p>
+تلفن تماس : تهران 3۸۷۴۲۵۸۸  و  3۸۷۴۲۸۲۴ (۰51)</p>
                         </div>
                     </div>
                 <div class="row">
@@ -141,7 +141,7 @@
                         <table class="font-color-black farsi-font table table-hover">
                             <thead class="farsi-align farsi-dir">
                                 <tr>
-                                    <th scope="col" style="text-align: right;">شمارش</th>
+                                    <th scope="col" style="text-align: right;">روزهای تشکیل</th>
                                     <th scope="col" style="text-align: right;">نام ساز</th>
                                     <th scope="col" style="text-align: right;">نام استاد</th>
                                     <th scope="col" style="text-align: right;">ردیف</th>
@@ -149,21 +149,21 @@
                             </thead>
                             <tbody class="farsi-align farsi-dir">
                                 <tr>
-                                    <td style="text-align: right;">123456789</td>
-                                    <td style="text-align: right;">سازدهنی</td>
+                                    <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
                                     <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">1</th>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">987654321</td>
-                                    <td style="text-align: right;">تیمپو</td>
-                                    <td style="text-align: right;">مهدی شان</td>
+                                     <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
+                                    <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">2</th>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">123654789</td>
-                                    <td style="text-align: right;">دست مجلسی</td>
-                                    <td style="text-align: right;">اوسکل</td>
+                                    <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
+                                    <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">3</th>
                                 </tr>
                             </tbody>
@@ -182,7 +182,7 @@
                     <table class="font-color-black farsi-font table table-hover">
                             <thead class="farsi-align farsi-dir">
                                 <tr>
-                                    <th scope="col" style="text-align: right;">شمارش</th>
+                                    <th scope="col" style="text-align: right;">روزهای تشکیل</th>
                                     <th scope="col" style="text-align: right;">نام ساز</th>
                                     <th scope="col" style="text-align: right;">نام استاد</th>
                                     <th scope="col" style="text-align: right;">ردیف</th>
@@ -190,21 +190,21 @@
                             </thead>
                             <tbody class="farsi-align farsi-dir">
                                 <tr>
-                                    <td style="text-align: right;">123456789</td>
-                                    <td style="text-align: right;">سازدهنی</td>
+                                    <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
                                     <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">1</th>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">987654321</td>
-                                    <td style="text-align: right;">تیمپو</td>
-                                    <td style="text-align: right;">مهدی شان</td>
+                                   <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
+                                    <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">2</th>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">123654789</td>
-                                    <td style="text-align: right;">دست مجلسی</td>
-                                    <td style="text-align: right;">اوسکل</td>
+                                    <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
+                                    <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">3</th>
                                 </tr>
                             </tbody>
@@ -224,7 +224,7 @@
                     <table class="font-color-black farsi-font table table-hover">
                             <thead class="farsi-align farsi-dir">
                                 <tr>
-                                    <th scope="col" style="text-align: right;">شمارش</th>
+                                    <th scope="col" style="text-align: right;">روزهای تشکیل</th>
                                     <th scope="col" style="text-align: right;">نام ساز</th>
                                     <th scope="col" style="text-align: right;">نام استاد</th>
                                     <th scope="col" style="text-align: right;">ردیف</th>
@@ -232,21 +232,21 @@
                             </thead>
                             <tbody class="farsi-align farsi-dir">
                                 <tr>
-                                    <td style="text-align: right;">123456789</td>
-                                    <td style="text-align: right;">سازدهنی</td>
+                                    <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
                                     <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">1</th>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">987654321</td>
-                                    <td style="text-align: right;">تیمپو</td>
-                                    <td style="text-align: right;">مهدی شان</td>
+                                     <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
+                                    <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">2</th>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right;">123654789</td>
-                                    <td style="text-align: right;">دست مجلسی</td>
-                                    <td style="text-align: right;">اوسکل</td>
+                                   <td style="text-align: right;">روزهای زوج </td>
+                                    <td style="text-align: right;">گیتار</td>
+                                    <td style="text-align: right;">فرهاد</td>
                                     <th scope="row" style="text-align: right;">3</th>
                                 </tr>
                             </tbody>

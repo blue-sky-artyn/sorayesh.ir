@@ -415,7 +415,7 @@
     <section class="section gb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>جدیدترین ها</h3>
+                <h3>جدیدترین آهنگ های بیکلام</h3>
                 <%--<p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>--%>
             </div>
             <!-- end title -->

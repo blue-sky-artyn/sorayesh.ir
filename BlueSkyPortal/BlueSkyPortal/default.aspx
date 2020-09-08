@@ -462,7 +462,7 @@
                 </style>
                 <div class="col-md-12">
                     <div class="right-side col-md-6">
-                        <a href="#" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-calendar-check-o" aria-hidden="true"></i>برنامه کلاس ها</a>
+                        <a href="schedule.aspx" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-calendar-check-o" aria-hidden="true"></i>برنامه کلاس ها</a>
                     </div>
                     <div class="left-side col-md-6">
                         <a href="#" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-phone-square" aria-hidden="true"></i>تماس با آموزشگاه</a>
@@ -500,12 +500,7 @@
                             </div>
                             <!-- end blog-desc -->
 
-                            <div class="post-meta">
-                                <ul class="list-inline">
-                                    <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>اضافه به سبد</a></li>
-                                    <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-heart" aria-hidden="true"></i>محبوب</a></li>
-                                </ul>
-                            </div>
+                          
                             <!-- end post-meta -->
                         </div>
                         <!-- end blog -->
@@ -527,12 +522,6 @@
                             </div>
                             <!-- end blog-desc -->
 
-                            <div class="post-meta">
-                                <ul class="list-inline">
-                                    <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>اضافه به سبد</a></li>
-                                    <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-heart" aria-hidden="true"></i>محبوب</a></li>
-                                </ul>
-                            </div>
                             <!-- end post-meta -->
                         </div>
                         <!-- end blog -->
@@ -554,12 +543,6 @@
                             </div>
                             <!-- end blog-desc -->
 
-                            <div class="post-meta">
-                                <ul class="list-inline">
-                                    <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>اضافه به سبد</a></li>
-                                    <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-heart" aria-hidden="true"></i>محبوب</a></li>
-                                </ul>
-                            </div>
                             <!-- end post-meta -->
                         </div>
                         <!-- end blog -->
@@ -585,12 +568,7 @@
                                 </div>
                                 <!-- end blog-desc -->
 
-                                <div class="post-meta">
-                                    <ul class="list-inline">
-                                        <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>اضافه به سبد</a></li>
-                                        <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-heart" aria-hidden="true"></i>محبوب</a></li>
-                                    </ul>
-                                </div>
+                              
                                 <!-- end post-meta -->
                             </div>
                             <!-- end blog -->
@@ -612,12 +590,6 @@
                                 </div>
                                 <!-- end blog-desc -->
 
-                                <div class="post-meta">
-                                    <ul class="list-inline">
-                                        <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>اضافه به سبد</a></li>
-                                        <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-heart" aria-hidden="true"></i>محبوب</a></li>
-                                    </ul>
-                                </div>
                                 <!-- end post-meta -->
                             </div>
                             <!-- end blog -->
@@ -639,12 +611,7 @@
                                 </div>
                                 <!-- end blog-desc -->
 
-                                <div class="post-meta">
-                                    <ul class="list-inline">
-                                        <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>اضافه به سبد</a></li>
-                                        <li><a class="farsi-font farsi-dir" href="#"><i class="fa fa-heart" aria-hidden="true"></i>محبوب</a></li>
-                                    </ul>
-                                </div>
+                             
                                 <!-- end post-meta -->
                             </div>
                             <!-- end blog -->

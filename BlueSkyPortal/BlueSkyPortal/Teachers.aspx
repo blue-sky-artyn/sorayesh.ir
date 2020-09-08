@@ -49,34 +49,17 @@
             
             <div class="main">
                 <!-- EIGHTH EXAMPLE -->
-<<<<<<< HEAD
-                
-                <div class="view view-eighth">
-                    <img src="images/ostad/1.jpg" />
-                    <div class="mask">
-                        <h2 class="farsi-font">مدرس گیتار </h2>
-                        <p class="farsi-font">آقای رضا مرتضویی</p>
-                    </div>
-                   
-                </div>
-             
-                <div class="view view-eighth">
-                    <img src="images/ostad/2.jpg" />
-                    <div class="mask">
-                        <h2 class="farsi-font">نوازنده و مدرس گیتار کلاسیک </h2>
-                        <p class="farsi-font">آقای محمد محمدی</p>
-=======
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
-                        <img src="images/1.jpg" />
+                        <img src="images/ostad/2.jpg" />
                         <div class="mask">
-                            <h2 class="farsi-font">مدرس گیتار تک سیم</h2>
-                            <p class="farsi-font">خیلی هم قشنگ میزنهُ هر کی بگه نه خره</p>
+                            <h2 class="farsi-font">حسن عباسی</h2>
+                            <p class="farsi-font">نوازنده و مدرس سنتور</p>
                         </div>
                     </div>
                     <div class="text-teacher">
-                        <p>اسم معلم/چی میزنه</p>
+                        <p>نوازنده و مدرس گیتار کلاسیک</p>
                     </div>
 
                 </div>
@@ -84,85 +67,60 @@
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
-                        <img src="images/2.jpg" />
+                        <img src="images/ostad/1.jpg" />
                         <div class="mask">
-                            <h2 class="farsi-font">مدرس ویالن بدون دست</h2>
-                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <h2 class="farsi-font">نیما حسنی</h2>
+                            <p class="farsi-font">نوازنده و مدرس سنتور.</p>
                         </div>
                     </div>
                     <div class="text-teacher">
-                        <p>اسم معلم/چی میزنه</p>
->>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
+                        <p>نوازنده و مدرس سنتور</p>
                     </div>
 
                 </div>
-<<<<<<< HEAD
-                <div class="view view-eighth">
-                    <img src="images/ostad/1.jpg" />
-                    <div class="mask">
-                        <h2 class="farsi-font">مدرس گیتار </h2>
-                        <p class="farsi-font">آقای رضا مرتضویی</p>
-=======
 
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
                         <img src="images/1.jpg" />
                         <div class="mask">
-                            <h2 class="farsi-font">مدرس تیمپو سوراخ</h2>
-                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                            <h2 class="farsi-font">علی علیزاده</h2>
+                            <p class="farsi-font">لنوازنده و مدرس پیانو</p>
                         </div>
                     </div>
 
                     <div class="text-teacher">
-                        <p>اسم معلم/چی میزنه</p>
->>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
+                        <p>نوازنده و مدرس پیانو</p>
                     </div>
 
                 </div>
-<<<<<<< HEAD
-                <div class="view view-eighth">
-                    <img src="images/ostad/1.jpg" />
-                    <div class="mask">
-                        <h2 class="farsi-font">مدرس گیتار </h2>
-                        <p class="farsi-font">آقای رضا مرتضویی</p>
-=======
 
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
                         <img src="images/a1.jpg" />
                         <div class="mask">
-                            <h2 class="farsi-font">مدرس بشگن مجلسی</h2>
-                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                            <h2 class="farsi-font">حسام حسامی</h2>
+                            <p class="farsi-font">نوازنده و مدرس پیانو. </p>
                         </div>
                     </div>
                     <div class="text-teacher">
-                        <p>اسم معلم/چی میزنه</p>
->>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
+                        <p>نوازنده و مدرس پیانو</p>
                     </div>
 
                 </div>
-<<<<<<< HEAD
-                <div class="view view-eighth">
-                    <img src="images/ostad/1.jpg" />
-                    <div class="mask">
-                        <h2 class="farsi-font">مدرس گیتار </h2>
-                        <p class="farsi-font">آقای رضا مرتضویی</p>
-=======
 
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
                         <img src="images/a1.jpg" />
                         <div class="mask">
-                            <h2 class="farsi-font">مدرس سوت چخ چخی</h2>
-                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                            <h2 class="farsi-font">حسام حسامی</h2>
+                            <p class="farsi-font">نوازنده و مدرس پیانو. </p>
                         </div>
                     </div>
                     <div class="text-teacher">
-                        <p>اسم معلم/چی میزنه</p>
->>>>>>> d5987103d12a1e8b227d76ac245065498fed9dde
+                        <p>نوازنده و مدرس پیانو</p>
                     </div>
 
                 </div>

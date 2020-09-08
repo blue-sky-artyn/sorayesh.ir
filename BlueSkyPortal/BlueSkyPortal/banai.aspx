@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="instruments.aspx.cs" Inherits="about" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/footer.master" AutoEventWireup="true" CodeFile="banai.aspx.cs" Inherits="about" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceFooterHead" runat="Server">
     <style>
@@ -74,10 +74,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="tagline-message page-title text-center">
-                        <h3 id="titleBigHtml" runat="server">سازشناسی</h3>
+                        <h3 id="titleBigHtml" runat="server">مبانی تئوری موسیقی و آهنگسازی</h3>
                         <ul class="breadcrumb">
                             <li><a href="default.aspx">صفحه اصلی</a></li>
-                            <li id="titleSmallHtml" runat="server" class="active">سازشناسی</li>
+                            <li id="titleSmallHtml" runat="server" class="active">مبانی تعوری موسیقی و آهنگسازی</li>
                         </ul>
                     </div>
                 </div>
@@ -109,13 +109,13 @@
                         
                             <div class="authorbox">
                                 <div class="farsi-align farsi-dir farsi-font site-publisher clearfix">
-                                    <img src="images/saz.jpg" alt="" class="img-responsive img-circle">
-                                    <a href="single-agency.html" title=""><h4><span>تمبک</span></h4></a>
+                              
+                                    <a href="single-agency.html" title=""><h4><span>تئوری موسیقی</span></h4></a>
                                     
                                     
-                                    <p>تُمبَک، (تنبک، دمبک، دنبک یا ضَرب) یکی از سازهای کوبه‌ای پوستی است و از نظر سازشناسی جزء طبل‌های جام‌شکل محسوب می‌شود که از این خانواده می‌توان به سازهای مشابه مانند داربوکا در کشورهای عربی و ترکیه و همچنین زیربغلی در افغانستان اشاره کرد. ساختمان بدنه تنبک را در گذشته از جنس چوب، سفال و گاهی…</p>
+                                    <p>تئوری موسیقی (به انگلیسی: music theory، به فرانسوی: théorie de la musique) نظریه‌ای دربارهٔ قواعد، اصطلاحات و نحوهٔ اجرای موسیقی است. تئوری موسیقی از قرن‌های گذشته ابداع شده و به‌تدریج تکامل یافته‌است. تئوری موسیقی شاخه‌ای تخصصی از رشتهٔ موسیقی است که شامل شناخت کلیهٔ قواعد، علامت‌ها و آشنایی با انواع صدای نُت‌ها، فاصله، ترکیب میزان‌ها، ضرب‌آهنگ (ریتم)، گام، و پرده‌های موسیقی است. اهمیت «تئوری موسیقی» به قدری است که از نظریه‌دانان این رشته به‌عنوان «نظریه‌پرداز موسیقی» (تئوریسین موسیقی) نام می‌برند.
 
-                                    <div class="authorbox-social">
+                          <div class="authorbox-social">
                                         <a href="#" class="btn btn-primary btn-sm">ادامه مطلب</a>
                                     </div><!-- end share -->
                                 </div><!-- end publisher -->
@@ -124,11 +124,13 @@
 
                               <div class="authorbox">
                                 <div class="farsi-align farsi-dir farsi-font site-publisher clearfix">
-                                    <img src="images/saz.jpg" alt="" class="img-responsive img-circle">
-                                    <a href="single-agency.html" title=""><h4><span>تمبک</span></h4></a>
+                                   
+                                       <a href="single-agency.html" title=""><h4><span>تئوری موسیقی</span></h4></a>
                                   
                                     
-                                    <p>تُمبَک، (تنبک، دمبک، دنبک یا ضَرب) یکی از سازهای کوبه‌ای پوستی است و از نظر سازشناسی جزء طبل‌های جام‌شکل محسوب می‌شود که از این خانواده می‌توان به سازهای مشابه مانند داربوکا در کشورهای عربی و ترکیه و همچنین زیربغلی در افغانستان اشاره کرد. ساختمان بدنه تنبک را در گذشته از جنس چوب، سفال و گاهی…</p>
+                                    <p>در سیستم هجایی اسامی نت‌های موسیقی به این صورت است: (از چپ به راست بخوانید) Do Re Mi Fa Sol La Si
+
+در ایران از سیستم هجایی استفاده می‌شود. نام نت‌ها به زبان فارسی: دو، ر، می، فا، سل، لا، سی،</p>
 
                                     <div class="authorbox-social">
                                         <a href="#" class="btn btn-primary btn-sm">ادامه مطلب</a>
@@ -145,10 +147,7 @@
 
                         <div class="sidebar col-md-4">
                             <div class="col-sm-12">
-                                 <section id="search">
-                                     <input id="search-input" class="form-control input-lg" placeholder="جستحو ساز" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
-                                     <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">جستحو ساز</span></label>
-                                 </section>
+                                 
                              </div>
 
                              <div class="widget clearfix">
@@ -158,18 +157,21 @@
                             </div>
 
                             <div class="widget clearfix">
-                                <h3 class="farsi-align farsi-dir farsi-font widget-title">دسته بندی سازها</h3>
+                                <h3 class="farsi-align farsi-dir farsi-font widget-title">مبانی تئوری موسیقی و آهنگسازی</h3>
                                 <div class="post-widget">
                                    <ul class="list-group">
   <li class="farsi-align farsi-dir farsi-font list-group-item d-flex justify-content-between align-items-center">
-<a href="?grp=1">   سازهای ایرانی</a> 
+<a href="?grp=1">   تئوری موسیقی</a> 
    
   </li>
   <li class="farsi-align farsi-dir farsi-font list-group-item d-flex justify-content-between align-items-center">
- <a href="?grp=1">    سازهای جهانی </a> 
+ <a href="?grp=1">   آهنگ سازی </a> 
   
   </li>
- 
+  <li class="farsi-align farsi-dir farsi-font list-group-item d-flex justify-content-between align-items-center">
+  <a href="?grp=1">  سلفژ و سرایش </a> 
+  
+  </li>
 </ul>
                                 </div><!-- end post-widget -->
                             </div><!-- end widget -->

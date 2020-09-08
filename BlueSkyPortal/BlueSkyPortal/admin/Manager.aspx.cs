@@ -4,17 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using bluesky.artyn;
-using Cruder.Core;
 
-public partial class about : System.Web.UI.Page
+public partial class Admin_Manager : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Request.QueryString["grp"] != "")
-        {
-            string groups = Request.QueryString["grp"];
-        }
+
+        if (Request.Cookies["Login"] == null)
+            Response.Redirect("~/Admin/Login.aspx");
 
     }
 }

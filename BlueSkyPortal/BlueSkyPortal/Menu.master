@@ -72,10 +72,10 @@
         <%--<nav class="navbar navbar-default yamm">--%>
         <div id="container" style="width: 80%; margin: 0 auto;">
             <div class="nav light-blue-menu">
-                <div class="logo"><a href="default.aspx"><img src="images/logo.jpg" alt="" /></a></div>
+                <div class="logo"><a href="default.aspx"><img src="images/logo.png" alt="" /></a></div>
                 <ul>
                     <li><a href="default.aspx">صفحه اصلی</a></li>
-                    <li><a href="#">برنامه کلاسی</a></li>
+                    <li><a href="schedule.aspx">برنامه کلاسی</a></li>
                        <!-- <ul class="levels">
                             <li><a href="#">منو 1</a></li>
                             <li><a href="#">منو 2</a></li>
@@ -95,19 +95,13 @@
                         </ul> -->
                     
                     <li><a href="Teachers.aspx">بیوگرافی اساتید</a></li>
-                    <li><a href="#">ساز شناسی</a></li>
-                    <li><a href="store.aspx">خرید نت</a></li>
+                    <li><a href="instruments.aspx?grp=1">ساز شناسی</a></li>
+                    <li><a href="store.aspx">بانک نت</a></li>
                      <li><a href="store_mp3.aspx">دانلود آهنگ های بیکلام</a></li>
-                    <li><a href="#">مبانی تئوری موسیقی و آهنگسازی</a></li>
+                    <li><a href="banai.aspx">مبانی تئوری موسیقی و آهنگسازی</a></li>
                        <li><a href="about.aspx">درباره ما</a></li>
                 </ul>
-                <div class="search-top">
-                    <div class="inline-search">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <input type="text" placeholder="جستجو" name="Search">
-                    </div>
-                    <div class="clear"></div>
-                </div>
+               
                 <!--/ search-box-->
                 <div class="clear"></div>
             </div>
