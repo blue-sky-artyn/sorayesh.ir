@@ -28,10 +28,10 @@
             	<nav class="wrapper">
                     <ul class="menu">
                         <li><a href="/Admin/admin_p1.aspx">صفحه اول</a></li>
-                        <li><a href="#">اطلاعیه ها</a></li>
-                        <li><a href="#">برنامه کلاسی</a></li>
-                        <li><a href="#">اساتید</a></li>
-                        <li><a href="#">سازشناسی </a></li>
+                        <li><a href="/Admin/news.aspx">اطلاعیه ها</a></li>
+                        <li><a href="/Admin/Class.aspx">برنامه کلاسی</a></li>
+                        <li><a href="/Admin/Teacher.aspx">اساتید</a></li>
+                        <li><a href="/Admin/Saz.aspx">سازشناسی </a></li>
                          <li><a href="#"> تئوری موسیقی</a></li>
                          <li><a href="#">درباره ما</a></li>
                             <li><a href="#">فروشگاه</a></li>
