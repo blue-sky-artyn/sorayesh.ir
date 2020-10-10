@@ -49,81 +49,18 @@
             
             <div class="main">
                 <!-- EIGHTH EXAMPLE -->
-                <div class="teacher-items">
+              
+                <asp:Literal ID="Literal1" runat="server"></asp:Literal>
 
-                    <div class="view view-eighth">
-                        <img src="images/ostad/2.jpg" />
-                        <div class="mask">
-                            <h2 class="farsi-font">حسن عباسی</h2>
-                            <p class="farsi-font">نوازنده و مدرس سنتور</p>
-                        </div>
-                    </div>
-                    <div class="text-teacher">
-                        <p>نوازنده و مدرس گیتار کلاسیک</p>
-                    </div>
 
-                </div>
 
-                <div class="teacher-items">
 
-                    <div class="view view-eighth">
-                        <img src="images/ostad/1.jpg" />
-                        <div class="mask">
-                            <h2 class="farsi-font">نیما حسنی</h2>
-                            <p class="farsi-font">نوازنده و مدرس سنتور.</p>
-                        </div>
-                    </div>
-                    <div class="text-teacher">
-                        <p>نوازنده و مدرس سنتور</p>
-                    </div>
 
-                </div>
 
-                <div class="teacher-items">
 
-                    <div class="view view-eighth">
-                        <img src="images/1.jpg" />
-                        <div class="mask">
-                            <h2 class="farsi-font">علی علیزاده</h2>
-                            <p class="farsi-font">لنوازنده و مدرس پیانو</p>
-                        </div>
-                    </div>
 
-                    <div class="text-teacher">
-                        <p>نوازنده و مدرس پیانو</p>
-                    </div>
 
-                </div>
-
-                <div class="teacher-items">
-
-                    <div class="view view-eighth">
-                        <img src="images/a1.jpg" />
-                        <div class="mask">
-                            <h2 class="farsi-font">حسام حسامی</h2>
-                            <p class="farsi-font">نوازنده و مدرس پیانو. </p>
-                        </div>
-                    </div>
-                    <div class="text-teacher">
-                        <p>نوازنده و مدرس پیانو</p>
-                    </div>
-
-                </div>
-
-                <div class="teacher-items">
-
-                    <div class="view view-eighth">
-                        <img src="images/a1.jpg" />
-                        <div class="mask">
-                            <h2 class="farsi-font">حسام حسامی</h2>
-                            <p class="farsi-font">نوازنده و مدرس پیانو. </p>
-                        </div>
-                    </div>
-                    <div class="text-teacher">
-                        <p>نوازنده و مدرس پیانو</p>
-                    </div>
-
-                </div>
+               
 
             </div>
                 </div>

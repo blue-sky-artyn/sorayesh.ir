@@ -4,7 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>
+        مدیریت اموزشگاه سرایش
+    </title>
       <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -32,9 +34,11 @@
                         <li><a href="/Admin/Class.aspx">برنامه کلاسی</a></li>
                         <li><a href="/Admin/Teacher.aspx">اساتید</a></li>
                         <li><a href="/Admin/Saz.aspx">سازشناسی </a></li>
-                         <li><a href="#"> تئوری موسیقی</a></li>
-                         <li><a href="#">درباره ما</a></li>
-                            <li><a href="#">فروشگاه</a></li>
+                         <li><a href="/Admin/mabani.aspx"> تئوری موسیقی</a></li>
+                         <li><a href="/Admin/Darbare.aspx">درباره ما</a></li>
+                            <li><a href="/Admin/InsertNot.aspx">نت ها</a></li>
+                        
+                          <li><a href="/Admin/Insert_mp3.aspx">اهنگ سازی</a></li>
                        
                     </ul>
                 </nav>

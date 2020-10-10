@@ -9,7 +9,8 @@ public partial class admin_Teacher : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Request.Cookies["Login"] == null)
+            Response.Redirect("~/Admin/Login.aspx");
     }
 
     protected void txt_honari_TextChanged(object sender, EventArgs e)

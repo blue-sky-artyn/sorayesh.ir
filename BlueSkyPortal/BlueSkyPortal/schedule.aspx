@@ -130,131 +130,14 @@
     
     <div class="bs-example">
         <div class="accordion" id="accordionExample">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h2 class="farsi-align farsi-direction farsi-font mb-0">
-                        <button type="button" class="font-color-black btn btn-link" data-toggle="collapse" data-target="#one">ویلن</button>
-                    </h2>
-                </div>
-                <div id="one" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <table class="font-color-black farsi-font table table-hover">
-                            <thead class="farsi-align farsi-dir">
-                                <tr>
-                                    <th scope="col" style="text-align: right;">روزهای تشکیل</th>
-                                    <th scope="col" style="text-align: right;">نام ساز</th>
-                                    <th scope="col" style="text-align: right;">نام استاد</th>
-                                    <th scope="col" style="text-align: right;">ردیف</th>
-                                </tr>
-                            </thead>
-                            <tbody class="farsi-align farsi-dir">
-                                <tr>
-                                    <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">1</th>
-                                </tr>
-                                <tr>
-                                     <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">2</th>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">3</th>
-                                </tr>
-                            </tbody>
-                        </table>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h2 class="farsi-align farsi-direction farsi-font mb-0">
-                    <button type="button" class="font-color-black btn btn-link collapsed" data-toggle="collapse" data-target="#two">هارمونی</button>
-                </h2>
-            </div>
-            <div id="two" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                    <table class="font-color-black farsi-font table table-hover">
-                            <thead class="farsi-align farsi-dir">
-                                <tr>
-                                    <th scope="col" style="text-align: right;">روزهای تشکیل</th>
-                                    <th scope="col" style="text-align: right;">نام ساز</th>
-                                    <th scope="col" style="text-align: right;">نام استاد</th>
-                                    <th scope="col" style="text-align: right;">ردیف</th>
-                                </tr>
-                            </thead>
-                            <tbody class="farsi-align farsi-dir">
-                                <tr>
-                                    <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">1</th>
-                                </tr>
-                                <tr>
-                                   <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">2</th>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">3</th>
-                                </tr>
-                            </tbody>
-                        </table>
-                
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingThree">
-                <h2 class="farsi-align farsi-direction farsi-font mb-0">
-                    <button type="button" class="font-color-black btn btn-link collapsed" data-toggle="collapse" data-target="#three">گیتار</button>                     
-                </h2>
-            </div>
-            <div id="three" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    <table class="font-color-black farsi-font table table-hover">
-                            <thead class="farsi-align farsi-dir">
-                                <tr>
-                                    <th scope="col" style="text-align: right;">روزهای تشکیل</th>
-                                    <th scope="col" style="text-align: right;">نام ساز</th>
-                                    <th scope="col" style="text-align: right;">نام استاد</th>
-                                    <th scope="col" style="text-align: right;">ردیف</th>
-                                </tr>
-                            </thead>
-                            <tbody class="farsi-align farsi-dir">
-                                <tr>
-                                    <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">1</th>
-                                </tr>
-                                <tr>
-                                     <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">2</th>
-                                </tr>
-                                <tr>
-                                   <td style="text-align: right;">روزهای زوج </td>
-                                    <td style="text-align: right;">گیتار</td>
-                                    <td style="text-align: right;">فرهاد</td>
-                                    <th scope="row" style="text-align: right;">3</th>
-                                </tr>
-                            </tbody>
-                        </table>
-                
-                </div>
-            </div>
-        </div>
+
+
+
+            
+            <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+
+
+       
     </div>
 </div>
 

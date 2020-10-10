@@ -41,8 +41,8 @@
                                 <h3 class="farsi-font farsi-align farsi-dir widget-title">امکانات اضافی</h3>
                                 <div class="farsi-dir list-widget">
                                     <ul>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">خرید نت</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">مشاهده کارهای کارآموزان</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="store.aspx">بانک نت</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="store_mp3.aspx">آهنگهای بیکلام</a></li>
                                       
                                     </ul>
                                 </div>
@@ -57,10 +57,10 @@
                                 <h3 class="farsi-font farsi-align farsi-dir widget-title">خدمات مشتریان</h3>
                                 <div class="farsi-dir list-widget">
                                     <ul>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">ساز شناسی</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">برنامه کلاسی</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">بیوگرافی اساتید</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">درباره ما</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="instruments.aspx?grp=1">ساز شناسی</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="schedule.aspx">برنامه کلاسی</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="Teachers.aspx">بیوگرافی اساتید</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="about.aspx">درباره ما</a></li>
                                     </ul>
                                 </div>
                                 <!-- end list-widget -->
@@ -73,10 +73,10 @@
                                 <h3 class="farsi-font farsi-align farsi-dir widget-title">سایت های مرتبط</h3>
                                 <div class="farsi-dir list-widget">
                                     <ul>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">خانه موسیقی ایران</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">خانه هنرمندان ایران</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">ایران کنسرت</a></li>
-                                        <li><a class="farsi-font farsi-align farsi-dir" href="#">موسیقی ایران</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="http://www.iranhmusic.ir/">خانه موسیقی ایران</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="http://iranartists.org/">خانه هنرمندان ایران</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="https://www.iranconcert.com/">ایران کنسرت</a></li>
+                                        <li><a class="farsi-font farsi-align farsi-dir" href="https://iranianmusiciansunion.com/">انجمن صنفی هنرمندان ایران</a></li>
                                     </ul>
                                 </div>
                                 <!-- end list-widget -->
@@ -97,7 +97,7 @@
                         <div class="pull-right">
                             <div class="footer-links">
                                 <ul class="list-inline">
-                                    <li>Designed & Developed : <a href="#">Decoton Co. (info@decotonco.ca)</a></li>
+                                    <li> <a href="#">تمام حقوق برای گروه آژمان شریف محفوظ هست © ٢٠٢٠</a></li>
                                 </ul>
                             </div>
                         </div>

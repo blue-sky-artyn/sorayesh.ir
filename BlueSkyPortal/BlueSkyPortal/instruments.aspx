@@ -107,34 +107,11 @@
                     <div class="row">
                         <div class="col-md-8">
                         
-                            <div class="authorbox">
-                                <div class="farsi-align farsi-dir farsi-font site-publisher clearfix">
-                                    <img src="images/saz.jpg" alt="" class="img-responsive img-circle">
-                                    <a href="single-agency.html" title=""><h4><span>تمبک</span></h4></a>
-                                    
-                                    
-                                    <p>تُمبَک، (تنبک، دمبک، دنبک یا ضَرب) یکی از سازهای کوبه‌ای پوستی است و از نظر سازشناسی جزء طبل‌های جام‌شکل محسوب می‌شود که از این خانواده می‌توان به سازهای مشابه مانند داربوکا در کشورهای عربی و ترکیه و همچنین زیربغلی در افغانستان اشاره کرد. ساختمان بدنه تنبک را در گذشته از جنس چوب، سفال و گاهی…</p>
 
-                                    <div class="authorbox-social">
-                                        <a href="#" class="btn btn-primary btn-sm">ادامه مطلب</a>
-                                    </div><!-- end share -->
-                                </div><!-- end publisher -->
-                            </div>
+                            <asp:Literal ID="Literal1" runat="server"></asp:Literal>
 
 
-                              <div class="authorbox">
-                                <div class="farsi-align farsi-dir farsi-font site-publisher clearfix">
-                                    <img src="images/saz.jpg" alt="" class="img-responsive img-circle">
-                                    <a href="single-agency.html" title=""><h4><span>تمبک</span></h4></a>
-                                  
-                                    
-                                    <p>تُمبَک، (تنبک، دمبک، دنبک یا ضَرب) یکی از سازهای کوبه‌ای پوستی است و از نظر سازشناسی جزء طبل‌های جام‌شکل محسوب می‌شود که از این خانواده می‌توان به سازهای مشابه مانند داربوکا در کشورهای عربی و ترکیه و همچنین زیربغلی در افغانستان اشاره کرد. ساختمان بدنه تنبک را در گذشته از جنس چوب، سفال و گاهی…</p>
-
-                                    <div class="authorbox-social">
-                                        <a href="#" class="btn btn-primary btn-sm">ادامه مطلب</a>
-                                    </div><!-- end share -->
-                                </div><!-- end publisher -->
-                            </div>
+                             
 
 
 
@@ -145,10 +122,10 @@
 
                         <div class="sidebar col-md-4">
                             <div class="col-sm-12">
-                                 <section id="search">
+                              <!--   <section id="search">
                                      <input id="search-input" class="form-control input-lg" placeholder="جستحو ساز" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
                                      <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">جستحو ساز</span></label>
-                                 </section>
+                                 </section> -->
                              </div>
 
                              <div class="widget clearfix">
@@ -166,7 +143,7 @@
    
   </li>
   <li class="farsi-align farsi-dir farsi-font list-group-item d-flex justify-content-between align-items-center">
- <a href="?grp=1">    سازهای جهانی </a> 
+ <a href="?grp=2">    سازهای جهانی </a> 
   
   </li>
  

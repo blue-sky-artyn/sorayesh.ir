@@ -9,7 +9,11 @@
                 <div class="wrapper">
                 	<article class="grid_3">
                     	<h3 class="p1">لیست خدمات</h3>
-                      
+                       <ul class="list-1">
+                        	<li><a href="/Admin/chang_pass.aspx">تغییر پسورد</a></li>
+                          
+                           
+                        </ul>
                     </article>
                     <article class="grid_9">
                     	

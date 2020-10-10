@@ -18,6 +18,7 @@
             position: absolute;
             padding-right: 20px;
             top: -10px;
+            left: 15px;
         }
         .logo {
             position: absolute;
@@ -55,9 +56,9 @@
                     </div>
                     <div class="col-md-6 col-sm-6 text-right">
                         <p id="contactInfoHtml" runat="server">
-                            مشهد بلوار وکیل آباد   &nbsp;&nbsp;<strong><i class="top-icon fa fa-map-marker" aria-hidden="true"></i></strong>
-                             0513606598 &nbsp;&nbsp;<strong><i class="top-icon fa fa-phone"></i></strong>
-                                <a href="mailto:info@gmail.com">info@decowallinc.ca</a>&nbsp;&nbsp;<strong><i class="top-icon fa fa-envelope"></i></strong>
+                        مشهد حاشیه بلوار وکیل آباد-بین وکیل آباد16و18(حد فاصل هنرستان و سامانیه)پلاک228    &nbsp;&nbsp;<strong><i class="top-icon fa fa-map-marker" aria-hidden="true"></i></strong>
+                            05138832160-05138704827 &nbsp;&nbsp;<strong><i class="top-icon fa fa-phone"></i></strong>
+                                <a href="mailto:info@gmail.com">ahmad.shahidifard@gmail.com</a>&nbsp;&nbsp;<strong><i class="top-icon fa fa-envelope"></i></strong>
                         </p>
                     </div>
                     <!-- end left -->

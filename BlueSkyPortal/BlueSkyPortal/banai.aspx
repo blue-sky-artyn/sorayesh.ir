@@ -107,36 +107,10 @@
                     <div class="row">
                         <div class="col-md-8">
                         
-                            <div class="authorbox">
-                                <div class="farsi-align farsi-dir farsi-font site-publisher clearfix">
-                              
-                                    <a href="single-agency.html" title=""><h4><span>تئوری موسیقی</span></h4></a>
-                                    
-                                    
-                                    <p>تئوری موسیقی (به انگلیسی: music theory، به فرانسوی: théorie de la musique) نظریه‌ای دربارهٔ قواعد، اصطلاحات و نحوهٔ اجرای موسیقی است. تئوری موسیقی از قرن‌های گذشته ابداع شده و به‌تدریج تکامل یافته‌است. تئوری موسیقی شاخه‌ای تخصصی از رشتهٔ موسیقی است که شامل شناخت کلیهٔ قواعد، علامت‌ها و آشنایی با انواع صدای نُت‌ها، فاصله، ترکیب میزان‌ها، ضرب‌آهنگ (ریتم)، گام، و پرده‌های موسیقی است. اهمیت «تئوری موسیقی» به قدری است که از نظریه‌دانان این رشته به‌عنوان «نظریه‌پرداز موسیقی» (تئوریسین موسیقی) نام می‌برند.
+                          
+                            <asp:Literal ID="Literal1" runat="server"></asp:Literal>
 
-                          <div class="authorbox-social">
-                                        <a href="#" class="btn btn-primary btn-sm">ادامه مطلب</a>
-                                    </div><!-- end share -->
-                                </div><!-- end publisher -->
-                            </div>
-
-
-                              <div class="authorbox">
-                                <div class="farsi-align farsi-dir farsi-font site-publisher clearfix">
-                                   
-                                       <a href="single-agency.html" title=""><h4><span>تئوری موسیقی</span></h4></a>
-                                  
-                                    
-                                    <p>در سیستم هجایی اسامی نت‌های موسیقی به این صورت است: (از چپ به راست بخوانید) Do Re Mi Fa Sol La Si
-
-در ایران از سیستم هجایی استفاده می‌شود. نام نت‌ها به زبان فارسی: دو، ر، می، فا، سل، لا، سی،</p>
-
-                                    <div class="authorbox-social">
-                                        <a href="#" class="btn btn-primary btn-sm">ادامه مطلب</a>
-                                    </div><!-- end share -->
-                                </div><!-- end publisher -->
-                            </div>
+                             
 
 
 
@@ -165,11 +139,11 @@
    
   </li>
   <li class="farsi-align farsi-dir farsi-font list-group-item d-flex justify-content-between align-items-center">
- <a href="?grp=1">   آهنگ سازی </a> 
+ <a href="?grp=2">   آهنگ سازی </a> 
   
   </li>
   <li class="farsi-align farsi-dir farsi-font list-group-item d-flex justify-content-between align-items-center">
-  <a href="?grp=1">  سلفژ و سرایش </a> 
+  <a href="?grp=3">  سلفژ و سرایش </a> 
   
   </li>
 </ul>

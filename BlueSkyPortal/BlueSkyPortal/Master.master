@@ -12,7 +12,10 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Site Meta -->
-    <title></title>
+    <title>
+
+        آموزشگاه موسیقی سرایش
+    </title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="Decoton company (Farhad Taheri)">
@@ -28,10 +31,10 @@
     <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/100.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/87.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/88.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon1.png">
     <link rel="manifest" href="images/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">

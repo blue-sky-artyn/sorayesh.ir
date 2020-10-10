@@ -15,9 +15,10 @@ public partial class Admin_admin_p1 : System.Web.UI.Page
     protected SqlDataReader dataReader;
     protected void Page_Load(object sender, EventArgs e)
     {
-
-      //  if (Request.Cookies["Login"] == null)
-          //  Response.Redirect("~/Admin/Login.aspx");
+        if (Request.Cookies["Login"] == null)
+            Response.Redirect("~/Admin/Login.aspx");
+        //  if (Request.Cookies["Login"] == null)
+        //  Response.Redirect("~/Admin/Login.aspx");
 
     }
 

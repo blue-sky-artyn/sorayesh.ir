@@ -9,7 +9,8 @@ public partial class admin_Saz : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Request.Cookies["Login"] == null)
+            Response.Redirect("~/Admin/Login.aspx");
     }
 
     protected void Button1_Click(object sender, EventArgs e)

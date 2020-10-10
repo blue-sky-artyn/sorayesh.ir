@@ -87,8 +87,16 @@
                  
                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     <asp:Button ID="Button2" runat="server" Text="حذف" Width="89px" OnClick="Button2_Click" />
                           
+            <br />
+                        <br />
                         
+                         <asp:Label ID="Label5" runat="server" Text=" جهت تیتر اول شماره اطلاعیه"></asp:Label>
+                      
+    <asp:TextBox ID="TextBox2" runat="server" Width="76px"></asp:TextBox><br />  
                         
+                        <br />
+                                 
+                        <asp:Button ID="Button3" runat="server" Text="ثبت" Width="70px" OnClick="Button3_Click" />
                         
                         
                     </article>

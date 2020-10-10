@@ -348,12 +348,16 @@
         <div id="wowslider-container1">
             <div class="ws_images">
                 <ul>
-                    <li>
+                         <%-- Slider --%>
+
+
+                    <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+                <%--   <li>
                         <img src="images/1.jpg" alt="1" title="1" id="wows1_0" /></li>
                     <li><a href="#">
                         <img src="images/2.jpg" alt="" title="2" id="wows1_1" /></a></li>
                     <li>
-                        <img src="images/3.jpg" alt="3" title="3" id="wows1_2" /></li>
+                        <img src="images/3.jpg" alt="3" title="3" id="wows1_2" /></li>  --%> 
                 </ul>
             </div>
            
@@ -376,8 +380,11 @@
                 <!-- end col -->
 
                 <div class="col-md-8">
-                    <p class="farsi-dir farsi-align farsi-font lead">شروع ترم جدید کلاس های آموزشگاه موسیقی سرایش. </p>
-                    <a href="#" class="farsi-font btn btn-primary">لینک</a>
+ 
+                    
+                    <asp:Literal ID="Literal2" runat="server"></asp:Literal>
+                   
+                
                 </div>
             </div>
             <!-- end row -->
@@ -392,34 +399,34 @@
             <div class="card-deck">
                 <div id="1" class="card">
                     <div class="shadow"></div>
-                    <img class="card-img-top" src="images/a1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/asatid.jpg" alt="Card image cap">
                     
                     <div class="card-footer">
-                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="#">لینک مرتبط</a></small>
+                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="Teachers.aspx">بیوگرافی اساتید</a></small>
                     </div>
                 </div>
                 
                 <div id="2" class="card">
                     <div class="shadow"></div>
-                    <img class="card-img-top" src="images/a1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/saz1.jpg" alt="Card image cap">
                     <div class="card-footer">
-                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="#">لینک مرتبط</a></small>
+                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="instruments.aspx?grp=1">ساز شناسی</a></small>
                     </div>
                 </div>
 
                 <div id="3" class="card">
                     <div class="shadow"></div>
-                    <img class="card-img-top" src="images/a1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/barname.jpg" alt="Card image cap">
                     <div class="card-footer">
-                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="#">لینک مرتبط</a></small>
+                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="schedule.aspx">برنامه کلاسی</a></small>
                     </div>
                 </div>
 
                 <div id="4" class="card">
                     <div class="shadow"></div>
-                    <img class="card-img-top" src="images/a1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/mabani.jpg" alt="Card image cap">
                     <div class="card-footer">
-                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="#">لینک مرتبط</a></small>
+                        <small class="farsi-align farsi-dir text-muted"><a class="farsi-font" href="banai.aspx">مبانی تئوری موسیقی وآهنگ سازی </a></small>
                     </div>
                 </div>
 
@@ -465,7 +472,7 @@
                         <a href="schedule.aspx" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-calendar-check-o" aria-hidden="true"></i>برنامه کلاس ها</a>
                     </div>
                     <div class="left-side col-md-6">
-                        <a href="#" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-phone-square" aria-hidden="true"></i>تماس با آموزشگاه</a>
+                        <a href="about.aspx" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-phone-square" aria-hidden="true"></i>تماس با آموزشگاه</a>
                     </div>
                 </div>
             </div>
@@ -478,146 +485,18 @@
     <section class="section gb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>جدیدترین ها</h3>
-                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                <h3>اخبار و اطلاعیه ها</h3>
+                <!-- <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>-->
             </div>
             <!-- end title -->
             <div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="blog-box">
-                            <div class="">
-                                <img src="images/news1.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
-                                </div>
-                            </div>
-                            <!-- end image-wrap -->
 
-                            <div class="blog-desc">
-                                <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-                            </div>
-                            <!-- end blog-desc -->
 
-                          
-                            <!-- end post-meta -->
-                        </div>
-                        <!-- end blog -->
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4 col-md-12">
-                        <div class="blog-box">
-                            <div class="">
-                                <img src="images/news2.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
-                                </div>
-                            </div>
-                            <!-- end image-wrap -->
-
-                            <div class="blog-desc">
-                                <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-                            </div>
-                            <!-- end blog-desc -->
-
-                            <!-- end post-meta -->
-                        </div>
-                        <!-- end blog -->
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4 col-md-12">
-                        <div class="blog-box">
-                            <div class="">
-                                <img src="images/news3.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
-                                </div>
-                            </div>
-                            <!-- end image-wrap -->
-
-                            <div class="blog-desc">
-                                <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-                            </div>
-                            <!-- end blog-desc -->
-
-                            <!-- end post-meta -->
-                        </div>
-                        <!-- end blog -->
-                    </div>
-                    <!-- end col -->
-
-                    <p id="dots"></p>
-                    <div class="more-details" id="more">
-
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-box">
-                                <div class="">
-                                    <img src="images/news1.jpg" alt="" class="img-responsive">
-                                    <div class="magnifier">
-                                        <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
-                                    </div>
-                                </div>
-                                <!-- end image-wrap -->
-
-                                <div class="blog-desc">
-                                    <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                    <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-                                </div>
-                                <!-- end blog-desc -->
-
-                              
-                                <!-- end post-meta -->
-                            </div>
-                            <!-- end blog -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-box">
-                                <div class="">
-                                    <img src="images/news2.jpg" alt="" class="img-responsive">
-                                    <div class="magnifier">
-                                        <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
-                                    </div>
-                                </div>
-                                <!-- end image-wrap -->
-
-                                <div class="blog-desc">
-                                    <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                    <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-                                </div>
-                                <!-- end blog-desc -->
-
-                                <!-- end post-meta -->
-                            </div>
-                            <!-- end blog -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-box">
-                                <div class="">
-                                    <img src="images/news3.jpg" alt="" class="img-responsive">
-                                    <div class="magnifier">
-                                        <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
-                                    </div>
-                                </div>
-                                <!-- end image-wrap -->
-
-                                <div class="blog-desc">
-                                    <h4 class="farsi-font farsi-dir"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </a></h4>
-                                    <p class="farsi-font farsi-dir">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-                                </div>
-                                <!-- end blog-desc -->
-
-                             
-                                <!-- end post-meta -->
-                            </div>
-                            <!-- end blog -->
-                        </div>
-                        <!-- end col -->
-                    </div>
+                    <asp:Literal ID="Literal3" runat="server"></asp:Literal>
+                
+                     </div>
+                   </div>
                     <a class="btn-showmore" id="showMoreBtn">بیشتر</a>
                 </div>
             </div>
