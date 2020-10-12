@@ -49,15 +49,89 @@
             
             <div class="main">
                 <!-- EIGHTH EXAMPLE -->
+<<<<<<< Updated upstream
               
                 <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+=======
+                <div class="teacher-items">
+
+                    <div class="view view-eighth">
+                        <img src="images/1.jpg" />
+                        <div class="mask">
+                            <h2 class="farsi-font">مدرس گیتار تک سیم</h2>
+                            <p class="farsi-font">خیلی هم قشنگ میزنهُ هر کی بگه نه خره</p>
+                        </div>
+                    </div>
+                    <div class="text-teacher">
+                        <p>اسم معلم/چی میزنه</p>
+                    </div>
+>>>>>>> Stashed changes
+
+
+
+<<<<<<< Updated upstream
 
 
 
 
+=======
+                    <div class="view view-eighth">
+                        <img src="images/2.jpg" />
+                        <div class="mask">
+                            <h2 class="farsi-font">مدرس ویالن بدون دست</h2>
+                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                        </div>
+                    </div>
+                    <div class="text-teacher">
+                        <p>اسم معلم/چی میزنه</p>
+                    </div>
 
+                </div>
 
+                <div class="teacher-items">
 
+                    <div class="view view-eighth">
+                        <img src="images/1.jpg" />
+                        <div class="mask">
+                            <h2 class="farsi-font">مدرس تیمپو سوراخ</h2>
+                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                        </div>
+                    </div>
+
+                    <div class="text-teacher">
+                        <p>اسم معلم/چی میزنه</p>
+                    </div>
+
+                </div>
+
+                <div class="teacher-items">
+
+                    <div class="view view-eighth">
+                        <img src="images/a1.jpg" />
+                        <div class="mask">
+                            <h2 class="farsi-font">مدرس بشگن مجلسی</h2>
+                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                        </div>
+                    </div>
+                    <div class="text-teacher">
+                        <p>اسم معلم/چی میزنه</p>
+                    </div>
+
+                </div>
+
+                <div class="teacher-items">
+
+                    <div class="view view-eighth">
+                        <img src="images/a1.jpg" />
+                        <div class="mask">
+                            <h2 class="farsi-font">مدرس سوت چخ چخی</h2>
+                            <p class="farsi-font">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                        </div>
+                    </div>
+                    <div class="text-teacher">
+                        <p>اسم معلم/چی میزنه</p>
+                    </div>
+>>>>>>> Stashed changes
 
 
                

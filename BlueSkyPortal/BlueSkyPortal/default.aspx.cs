@@ -86,7 +86,7 @@ public partial class _Default : System.Web.UI.Page
                 s3 += "<div class='col-lg-4 col-md-12'>";
                 s3 += "<div class='blog-box'>";
                 s3 +=" <div class=''>";     
-                s3 += "<img src ='img1_news/"+row3.pic_news+ "' alt='آموزشگاه سرایش'class='img-responsive' style='height: 300px; width: 400px'>";
+                s3 += "<img src ='img1_news/"+row3.pic_news+ "' alt='آموزشگاه سرایش'class='img-responsive' style=''>";
                 s3 +="<div class='magnifier'>";
                 s3 += "<a href = 'blog-single.html' title=''><i class='flaticon-add'></i></a>";
                 s3 += "</div>";

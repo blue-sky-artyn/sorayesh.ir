@@ -466,13 +466,36 @@
                             font-size: 32px;
                             float: left;
                         }
+                    .mobile-info {
+                        display:none;
+                    }
+                    .btn-mob {
+                        width: 100%;
+                        margin: 5px 0;
+                    }
+                    @media only screen and (max-width: 992px) {
+                        .regular-info {
+                            display:none;
+                        }
+                        .mobile-info {
+                            display:block;
+                        }
+                    }
                 </style>
-                <div class="col-md-12">
+                <div class="regular-info col-md-12">
                     <div class="right-side col-md-6">
                         <a href="schedule.aspx" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-calendar-check-o" aria-hidden="true"></i>برنامه کلاس ها</a>
                     </div>
                     <div class="left-side col-md-6">
                         <a href="about.aspx" class="farsi-font btn btn-primary"><i class="contact-btn fa fa-phone-square" aria-hidden="true"></i>تماس با آموزشگاه</a>
+                    </div>
+                </div>
+                <div class="mobile-info col-md-12">
+                    <div class="col-md-6">
+                        <a href="schedule.aspx" class="btn-mob  farsi-font btn btn-primary"><i class="contact-btn fa fa-calendar-check-o" aria-hidden="true"></i>برنامه کلاس ها</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="about.aspx" class="btn-mob farsi-font btn btn-primary"><i class="contact-btn fa fa-phone-square" aria-hidden="true"></i>تماس با آموزشگاه</a>
                     </div>
                 </div>
             </div>
