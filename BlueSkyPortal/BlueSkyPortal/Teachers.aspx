@@ -14,9 +14,10 @@
 
         .teacher-items {
             width: 23%;
-            margin: 10px;
-            float: left;
+            margin: 9px;
+            /*float: left;*/
             overflow: hidden;
+            display: inline-block;
         }
     </style>
 </asp:Content>
@@ -49,10 +50,9 @@
             
             <div class="main">
                 <!-- EIGHTH EXAMPLE -->
-<<<<<<< Updated upstream
               
                 <asp:Literal ID="Literal1" runat="server"></asp:Literal>
-=======
+
                 <div class="teacher-items">
 
                     <div class="view view-eighth">
@@ -65,16 +65,11 @@
                     <div class="text-teacher">
                         <p>اسم معلم/چی میزنه</p>
                     </div>
->>>>>>> Stashed changes
+                    </div>
 
 
 
-<<<<<<< Updated upstream
-
-
-
-
-=======
+<div class="teacher-items">
                     <div class="view view-eighth">
                         <img src="images/2.jpg" />
                         <div class="mask">
@@ -131,7 +126,7 @@
                     <div class="text-teacher">
                         <p>اسم معلم/چی میزنه</p>
                     </div>
->>>>>>> Stashed changes
+
 
 
                

@@ -101,9 +101,6 @@
                             
                         
 
-                         <section class="section gb nopadtop">
-            <div class="container">
-                <div class="boxed">
                     <div class="row">
                         <div class="col-md-8">
                         
@@ -154,9 +151,7 @@
                             
                         </div><!-- end sidebar -->
                     </div><!-- end row -->
-                </div><!-- end boxed -->
-            </div><!-- end container -->
-        </section>
+                
 
 
 
